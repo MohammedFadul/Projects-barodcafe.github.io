@@ -1,0 +1,144 @@
+body{
+    background: rgb(12, 11, 11);
+}
+
+.orderCont{
+    background: white;
+    text-align: center;
+    height: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.drinkTitle{
+    font-family: arabicfont;
+    font-size:80px;
+    padding-top: 20px;
+}
+
+.orders{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 20px;
+}
+.orders .icons{
+    margin-right: 30px;
+}
+.orders img{
+    margin:  0 5px;
+}
+
+.orders p{
+    font-family: arabicfont;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.orders .counter{
+    width: 40px;
+    height: 40px;
+    background: #151313;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    font-family: arabicfont;
+    font-size: 40px;
+    
+}
+
+.phone{
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.phone p {
+    font-family: arabicfont;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.phone input {
+    margin-right: 50px;
+}
+
+.location{
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.location p {
+    font-family: arabicfont;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+
+.locContainer{
+    display: block;
+    width: 100%;
+    float: right;
+}
+
+.locContainer  select{
+    margin-right: 100px;
+    width: 150px;
+    padding: 5px 5px;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    text-align: center;
+    float: right;
+    margin-top: 30px;
+}
+.button button{
+    border: none;
+    background: rgb(12, 11, 11);
+    color: white;
+    padding: 5px 50px;
+    border-radius: 50px;
+    font-family: arabicfont;
+    font-size: 20px;
+    outline: none;
+    transition: all ease-in-out .3s;
+}
+.button button:hover{
+    background: chocolate;
+    color: white;
+    cursor: pointer;
+}
+
+.drinkCont{
+    text-align: center;
+    color: white;
+}
+.drinkCont img{
+    max-width: 100%;
+    margin-top: 60px;
+    width: 400px;
+    /* border-radius: 10px; */
+    border: solid 1px white;
+}
+.drinkCont .drink{
+    font-family: arabicfont;
+    font-size: 60px;
+}
+
+.drinkCont .price{
+    font-family: dancing;
+    font-size: 20px;
+    margin-top: -25px;
+}
+
+.add:hover , .mins:hover{
+    cursor: pointer;
+}

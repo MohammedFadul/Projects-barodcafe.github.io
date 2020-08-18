@@ -1,0 +1,67 @@
+@media(max-width:767px){
+    nav img{
+        width: 100px;
+    }
+    .hero img{
+        width: 170px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .hero .h1{
+        font-size: 100px;
+    }
+    .hero .arfont{
+        font-size: 35px;
+    }
+
+    .t{
+        position: relative;
+        top: 40%;
+    }
+    .b{
+        position: relative;
+        bottom: 45%;
+    }
+
+  
+    
+    /*Order page */
+
+    .icons{
+        display: flex;
+    }
+    .orders .counter{
+        margin-right: 5px;
+    }
+    .phone input{
+        margin-right: 20px;
+        border: solid black 1px;
+        outline: none;
+    }
+    .locContainer select{
+        margin-right: 50px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .t{
+        position: relative;
+        top: 40%;
+    }
+    .b{
+        position: relative;
+        bottom: 40%;
+    }
+
+    .hero img{
+        width: 170px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .hero .h1{
+        font-size: 100px;
+    }
+    .hero .arfont{
+        font-size: 35px;
+    }
+}

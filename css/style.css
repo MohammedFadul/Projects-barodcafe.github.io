@@ -1,0 +1,186 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Main Class */
+
+.mainColor{
+    background: white;
+
+}
+
+@font-face{
+    font-family: 'arabicfont';
+    src : url('../fonts/arabicfont.woff2') format('woff2');
+    src : url('../fonts/arabicfont.woff') format('woff');
+    src : url('../fonts/arabicfont.ttf');
+
+
+}
+@font-face{
+    font-family: 'dancing';
+    src : url('../fonts/DancingScript-Regular.ttf');
+    width: 100%;
+}
+
+/* Hero */
+
+.hero .row{
+    height: 400px;
+}
+
+.hero .row:last-child{
+    height: 600px;
+}
+
+
+.arfont{
+    font-family: arabicfont;
+    color: white;
+    font-size:40px;
+}
+.h1{
+    font-family: arabicfont;
+    color: white;
+    font-size:130px;
+}
+/* Hero */
+
+.hero{
+    background: url('../images/background2.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.none {
+    text-decoration: none;
+    color: black;
+}
+
+.none:hover{
+    text-decoration: none;
+}
+
+/* first section */
+
+.coffee{
+    background-color: rgb(12, 11, 11);
+    /* height: 1000px; */
+}
+
+.ourcoffee{
+    font-family: arabicfont;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 130px;
+    color: white;
+}
+
+.imgborder{
+    text-align: center;
+}
+
+.imgborder img{
+ width: 250px;
+ height: 166px;
+ border-radius: 5%;
+}
+
+.info{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.info .drink{
+    font-family: arabicfont;
+    font-size: 60px;
+}
+
+.info .price{
+    font-family: dancing;
+    font-size: 20px;
+    margin-top: -25px;
+}
+
+.info .order{
+    font-family: arabicfont;  
+    font-size:30px;  
+    background: white;
+    padding: 2px 40px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 50px;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+}
+
+.info .order:hover{
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+}
+
+.coffee .container{
+    margin: 60px auto;
+}
+.coffee .container:last-child{
+    margin: 0px auto;
+}
+
+/* Footer */
+
+footer{
+    height: 120px;
+    text-align: center; 
+}
+.about{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.about a{
+    font-family: dancing;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    transition: all ease-in-out .2s;
+}
+.about a:hover {
+    color: chocolate;
+    text-decoration: none;
+}
+
+.copyrights{
+    margin-bottom: 20px;
+}
+
+
+/* About Page */
+
+.aboutWebSite{
+    font-family: arabicfont;
+}
+
+.aboutWebSite .title{
+    font-size: 70px;
+}
+
+.aboutWebSite .siteInfo{
+    font-size: 40px;
+}
+
+.contact{
+    font-size: 40px;
+}
+.contactInfo{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contactInfo:last-child{
+    margin-bottom: 50px;
+}
