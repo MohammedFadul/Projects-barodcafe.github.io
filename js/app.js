@@ -1,4 +1,4 @@
-const btn1 = document.querySelector('.btn1')
+// const btn1 = document.querySelector('.btn1')
 const btn2 = document.querySelector('.btn2')
 const btn3 = document.querySelector('.btn3')
 const btn4 = document.querySelector('.btn4')
@@ -13,9 +13,9 @@ const orders = [
     {name:"turky", price:"120 SG" , img:"images/turky.jpg"},
 ]
 
-btn1.addEventListener('click' , ()=>{
-    window.document.location.href = './order.html?img=/MohammedFadul/Projects-barodcafe.github.io/blob/master/images/moca.jpg' + '&drinkname=موكا' + '&price=150SG';
-})
+// btn1.addEventListener('click' , ()=>{
+//     window.document.location.href = './order.html?img=/MohammedFadul/Projects-barodcafe.github.io/blob/master/images/moca.jpg' + '&drinkname=موكا' + '&price=150SG';
+// })
 
 btn2.addEventListener('click' , ()=>{
     window.document.location.href = './order.html?img=/images/cappuccino.jpg' + '&drinkname=كابتشينو' + '&price=150SG';
