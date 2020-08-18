@@ -13,7 +13,7 @@ const orders = [
 ]
 
 btn1.addEventListener('click' , ()=>{
-    window.document.location.href = './order.html?img=/blob/master/images/moca.jpg' + '&drinkname=موكا' + '&price=150SG';
+    window.document.location.href = './order.html?img=/MohammedFadul/Projects-barodcafe.github.io/blob/master/images/moca.jpg' + '&drinkname=موكا' + '&price=150SG';
 })
 
 btn2.addEventListener('click' , ()=>{
