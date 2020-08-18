@@ -18,7 +18,7 @@ const orders = [
 // })
 
 btn2.addEventListener('click' , ()=>{
-    window.document.location.href = './order.html?img=/github.com/MohammedFadul/Projects-barodcafe.github.io/blob/master/images/cappuccino.jpg' + '&drinkname=كابتشينو' + '&price=150SG';
+    window.document.location.href = './order.html?img=/MohammedFadul/Projects-barodcafe.github.io/tree/master/images/cappuccino.jpg' + '&drinkname=كابتشينو' + '&price=150SG';
 })
 
 btn3.addEventListener('click' , ()=>{
